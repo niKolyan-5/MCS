@@ -9,7 +9,9 @@ https://ods.ai/competitions/mcs_car_verification
 Ссылка на данные: https://disk.yandex.ru/d/3i5gKi7bI1MwZQ
 
 Train Data Size: 175480
+
 Val Data Size: 22156
+
 Number of classes: 4394
 
 #### 3. Архитектура решения
@@ -19,7 +21,7 @@ Number of classes: 4394
 - ArcFace на выходе из модели для решения задчи классификации
 - FocalLoss
 - Косинусное сходство эмбеддиногов на инференсе
-![alt text](files/Group 5.png)
+![Схема решения](files/img.png)
 
 #### 4. Конфигурация
 Файлы с конфигурацией:
